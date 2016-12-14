@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4593FE991E020EFA00A08092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593FE981E020EFA00A08092 /* AppDelegate.swift */; };
+		4593FE9B1E020EFA00A08092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593FE9A1E020EFA00A08092 /* ViewController.swift */; };
+		4593FE9D1E020EFA00A08092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4593FE9C1E020EFA00A08092 /* Assets.xcassets */; };
+		4593FEA01E020EFA00A08092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4593FE9E1E020EFA00A08092 /* Main.storyboard */; };
+		4593FEAB1E020EFA00A08092 /* apkInstallHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593FEAA1E020EFA00A08092 /* apkInstallHelperTests.swift */; };
+		4593FEB61E020EFA00A08092 /* apkInstallHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593FEB51E020EFA00A08092 /* apkInstallHelperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4593FEA71E020EFA00A08092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4593FE8D1E020EF900A08092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4593FE941E020EF900A08092;
+			remoteInfo = apkInstallHelper;
+		};
+		4593FEB21E020EFA00A08092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4593FE8D1E020EF900A08092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4593FE941E020EF900A08092;
+			remoteInfo = apkInstallHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4593FE951E020EFA00A08092 /* apkInstallHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apkInstallHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4593FE981E020EFA00A08092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4593FE9A1E020EFA00A08092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4593FE9C1E020EFA00A08092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4593FE9F1E020EFA00A08092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4593FEA11E020EFA00A08092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4593FEA61E020EFA00A08092 /* apkInstallHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apkInstallHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4593FEAA1E020EFA00A08092 /* apkInstallHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apkInstallHelperTests.swift; sourceTree = "<group>"; };
+		4593FEAC1E020EFA00A08092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4593FEB11E020EFA00A08092 /* apkInstallHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = apkInstallHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4593FEB51E020EFA00A08092 /* apkInstallHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apkInstallHelperUITests.swift; sourceTree = "<group>"; };
+		4593FEB71E020EFA00A08092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4593FE921E020EF900A08092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4593FEA31E020EFA00A08092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4593FEAE1E020EFA00A08092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4593FE8C1E020EF900A08092 = {
+			isa = PBXGroup;
+			children = (
+				4593FE971E020EFA00A08092 /* apkInstallHelper */,
+				4593FEA91E020EFA00A08092 /* apkInstallHelperTests */,
+				4593FEB41E020EFA00A08092 /* apkInstallHelperUITests */,
+				4593FE961E020EFA00A08092 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4593FE961E020EFA00A08092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4593FE951E020EFA00A08092 /* apkInstallHelper.app */,
+				4593FEA61E020EFA00A08092 /* apkInstallHelperTests.xctest */,
+				4593FEB11E020EFA00A08092 /* apkInstallHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4593FE971E020EFA00A08092 /* apkInstallHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4593FE981E020EFA00A08092 /* AppDelegate.swift */,
+				4593FE9A1E020EFA00A08092 /* ViewController.swift */,
+				4593FE9C1E020EFA00A08092 /* Assets.xcassets */,
+				4593FE9E1E020EFA00A08092 /* Main.storyboard */,
+				4593FEA11E020EFA00A08092 /* Info.plist */,
+			);
+			path = apkInstallHelper;
+			sourceTree = "<group>";
+		};
+		4593FEA91E020EFA00A08092 /* apkInstallHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				4593FEAA1E020EFA00A08092 /* apkInstallHelperTests.swift */,
+				4593FEAC1E020EFA00A08092 /* Info.plist */,
+			);
+			path = apkInstallHelperTests;
+			sourceTree = "<group>";
+		};
+		4593FEB41E020EFA00A08092 /* apkInstallHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4593FEB51E020EFA00A08092 /* apkInstallHelperUITests.swift */,
+				4593FEB71E020EFA00A08092 /* Info.plist */,
+			);
+			path = apkInstallHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4593FE941E020EF900A08092 /* apkInstallHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4593FEBA1E020EFA00A08092 /* Build configuration list for PBXNativeTarget "apkInstallHelper" */;
+			buildPhases = (
+				4593FE911E020EF900A08092 /* Sources */,
+				4593FE921E020EF900A08092 /* Frameworks */,
+				4593FE931E020EF900A08092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apkInstallHelper;
+			productName = apkInstallHelper;
+			productReference = 4593FE951E020EFA00A08092 /* apkInstallHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4593FEA51E020EFA00A08092 /* apkInstallHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4593FEBD1E020EFA00A08092 /* Build configuration list for PBXNativeTarget "apkInstallHelperTests" */;
+			buildPhases = (
+				4593FEA21E020EFA00A08092 /* Sources */,
+				4593FEA31E020EFA00A08092 /* Frameworks */,
+				4593FEA41E020EFA00A08092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4593FEA81E020EFA00A08092 /* PBXTargetDependency */,
+			);
+			name = apkInstallHelperTests;
+			productName = apkInstallHelperTests;
+			productReference = 4593FEA61E020EFA00A08092 /* apkInstallHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4593FEB01E020EFA00A08092 /* apkInstallHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4593FEC01E020EFA00A08092 /* Build configuration list for PBXNativeTarget "apkInstallHelperUITests" */;
+			buildPhases = (
+				4593FEAD1E020EFA00A08092 /* Sources */,
+				4593FEAE1E020EFA00A08092 /* Frameworks */,
+				4593FEAF1E020EFA00A08092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4593FEB31E020EFA00A08092 /* PBXTargetDependency */,
+			);
+			name = apkInstallHelperUITests;
+			productName = apkInstallHelperUITests;
+			productReference = 4593FEB11E020EFA00A08092 /* apkInstallHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4593FE8D1E020EF900A08092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Zhangbeiyi;
+				TargetAttributes = {
+					4593FE941E020EF900A08092 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4593FEA51E020EFA00A08092 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4593FE941E020EF900A08092;
+					};
+					4593FEB01E020EFA00A08092 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4593FE941E020EF900A08092;
+					};
+				};
+			};
+			buildConfigurationList = 4593FE901E020EF900A08092 /* Build configuration list for PBXProject "apkInstallHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4593FE8C1E020EF900A08092;
+			productRefGroup = 4593FE961E020EFA00A08092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4593FE941E020EF900A08092 /* apkInstallHelper */,
+				4593FEA51E020EFA00A08092 /* apkInstallHelperTests */,
+				4593FEB01E020EFA00A08092 /* apkInstallHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4593FE931E020EF900A08092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4593FE9D1E020EFA00A08092 /* Assets.xcassets in Resources */,
+				4593FEA01E020EFA00A08092 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4593FEA41E020EFA00A08092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4593FEAF1E020EFA00A08092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4593FE911E020EF900A08092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4593FE9B1E020EFA00A08092 /* ViewController.swift in Sources */,
+				4593FE991E020EFA00A08092 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4593FEA21E020EFA00A08092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4593FEAB1E020EFA00A08092 /* apkInstallHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4593FEAD1E020EFA00A08092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4593FEB61E020EFA00A08092 /* apkInstallHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4593FEA81E020EFA00A08092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4593FE941E020EF900A08092 /* apkInstallHelper */;
+			targetProxy = 4593FEA71E020EFA00A08092 /* PBXContainerItemProxy */;
+		};
+		4593FEB31E020EFA00A08092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4593FE941E020EF900A08092 /* apkInstallHelper */;
+			targetProxy = 4593FEB21E020EFA00A08092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4593FE9E1E020EFA00A08092 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4593FE9F1E020EFA00A08092 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4593FEB81E020EFA00A08092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4593FEB91E020EFA00A08092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4593FEBB1E020EFA00A08092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = apkInstallHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bsdefz.apkInstallHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4593FEBC1E020EFA00A08092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = apkInstallHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bsdefz.apkInstallHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4593FEBE1E020EFA00A08092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = apkInstallHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bsdefz.apkInstallHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apkInstallHelper.app/Contents/MacOS/apkInstallHelper";
+			};
+			name = Debug;
+		};
+		4593FEBF1E020EFA00A08092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = apkInstallHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bsdefz.apkInstallHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apkInstallHelper.app/Contents/MacOS/apkInstallHelper";
+			};
+			name = Release;
+		};
+		4593FEC11E020EFA00A08092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = apkInstallHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bsdefz.apkInstallHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = apkInstallHelper;
+			};
+			name = Debug;
+		};
+		4593FEC21E020EFA00A08092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = apkInstallHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.bsdefz.apkInstallHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = apkInstallHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4593FE901E020EF900A08092 /* Build configuration list for PBXProject "apkInstallHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4593FEB81E020EFA00A08092 /* Debug */,
+				4593FEB91E020EFA00A08092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4593FEBA1E020EFA00A08092 /* Build configuration list for PBXNativeTarget "apkInstallHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4593FEBB1E020EFA00A08092 /* Debug */,
+				4593FEBC1E020EFA00A08092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4593FEBD1E020EFA00A08092 /* Build configuration list for PBXNativeTarget "apkInstallHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4593FEBE1E020EFA00A08092 /* Debug */,
+				4593FEBF1E020EFA00A08092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4593FEC01E020EFA00A08092 /* Build configuration list for PBXNativeTarget "apkInstallHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4593FEC11E020EFA00A08092 /* Debug */,
+				4593FEC21E020EFA00A08092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4593FE8D1E020EF900A08092 /* Project object */;
+}
