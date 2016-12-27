@@ -30,6 +30,11 @@ class ViewController: NSViewController {
     
     @IBOutlet weak var info: NSTextField!
     
+    @IBAction func link(_ sender: Any) {
+        let guideUrl = URL(string: "https://github.com/Beiyi/apk_install_helper/tree/master/guide")
+        NSWorkspace.shared().open(guideUrl!)
+    }
+    
     @IBAction func selectFile(_ sender: Any) {
         let dialog = NSOpenPanel();
         dialog.title = "Select apk file"

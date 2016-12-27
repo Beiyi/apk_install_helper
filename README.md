@@ -11,7 +11,7 @@ This app help you push your android APP to your phone.
 - Find apkInstallHelper in launchpad and run it.
 - Press Browse to select apk file.
 - Press Install button to install apk.
-- Allow install behave in your phone. If you don't how to do that, please see [How to allow app install](https://github.com/Beiyi/apk_install_helper/tree/master/guide#2-how-to-allow-app-install).
+- Allow install behave in your phone. If you don't know how to do that, please see [How to allow app install](https://github.com/Beiyi/apk_install_helper/tree/master/guide#2-how-to-allow-app-install).
 
 # License
 MIT License
